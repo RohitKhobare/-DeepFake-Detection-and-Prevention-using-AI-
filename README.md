@@ -1,35 +1,79 @@
 # DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI
-## Table of Contents
-* [Introduction](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI?tab=readme-ov-file#introduction)
-* [Documentation](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/blob/main/README.md#documentation)
-* [Code](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/blob/main/README.md#code)
-* [Usage](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/blob/main/README.md#usage)
-* [Result Snapshots](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/blob/main/README.md#result-snapshots)
-* [Tools](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/blob/main/README.md#tools)
-
 
 ## Introduction
+
 Welcome to my Deepfake Detection and Prevention project! In this comprehensive approach, I utilize advanced AI techniques to tackle the growing challenge of deepfake images. By leveraging machine learning algorithms and neural networks, this project aims to identify and mitigate the impact of manipulated images. You'll find detailed documentation, code implementations, and datasets used to train and test our models. Whether you're a researcher, developer, or just curious about AI's role in combating digital misinformation, this repository offers valuable insights and tools to understand and counter deepfakes effectively.
 
-## Documentation
-Check out the documentation of the project by clicking [here](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/blob/main/Deep%20Fake%20Project%20Documentation.pdf)!
+## ✨ New Features (Website-Style UI)
 
-## Code
-Check out the code of the project by clicking [here](https://github.com/Ramya-Mahi/DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/tree/main/Code)!
+- **🎨 Modern Website Design**: Clean, professional interface without sidebar navigation
+- **🌈 Multiple Themes**: 5 beautiful themes (Default, Dark, Nature, Sunset, Ocean)
+- **�️ Dedicated Image Analysis**: Specialized deepfake detection for images with advanced AI algorithms
+- **�📄 Comprehensive File Analysis**: Support for 40+ file formats (images, videos, documents, audio, archives)
+- **🎥 Advanced Video Analysis**: Real-time streaming and batch video processing with frame-by-frame detection
+- **📊 Batch Processing**: Parallel processing of multiple files with progress tracking
+- **📈 Analytics Dashboard**: Detailed insights and performance metrics
+- **📚 Model Training**: Advanced model training and optimization interface
+- **⚙️ Professional Settings**: Comprehensive configuration options
+- **🔍 AI vs Human Detection**: Detailed content analysis with confidence scores
+- **📱 Responsive Design**: Works seamlessly across different screen sizes
+- **🚀 Enterprise-Grade**: Production-ready with error handling and professional UI
 
 ## Usage
+
 **1. Clone the repository:** Clone the repository to your local machine.<br>
 **2. Install Dependancies:** Install required dependancies.<br>
-**3. Run the Application:** Start the application using Streamlit by running the following command in your terminal:
-`
-  streamlit run app.py
-`
+**3. Run the Application:** Start the modern website-style application using Streamlit by running the following command in your terminal:
+
+```
+python launch_website.py
+```
+
+Or run directly:
+
+```
+streamlit run Code/app_website.py --server.port 8505 --server.headless true
+```
+
 <br>
-**4. Open the Application:** After running the command a new tab will automatically open in your default web browser.<br>
-**5. Upload an Image:** In the web application you'll find an interface to upload an image. Browse and select the image you want to analyze for deepfake detection.<br>
-**6. Analyze the Image:** Once the image is uploaded, the tool will process it and provide you with a result indicating whether the image is a deepfake or real.<br>
+**4. Open the Application:** After running the command a new tab will automatically open in your default web browser at http://localhost:8505.<br>
+**5. Choose Your Theme:** Use the theme selector in the header to switch between 5 beautiful themes: Default (Professional Indigo), Dark (Modern Dark Mode), Nature (Green Forest), Sunset (Warm Orange), Ocean (Cool Blue).<br>
+**6. Navigate the Website:** Use the header navigation to access different features like Dashboard, **Image Analysis**, File Analysis, Video Analysis, Batch Processing, Analytics, Model Training, Settings, and Documentation.<br>
+**7. Upload Files:** In the respective pages, upload files for comprehensive analysis across 40+ file formats.<br>
+**7. View Results:** Get detailed analysis reports with AI vs Human detection, confidence scores, and processing times.<br>
+## 📁 **Project Structure**
+
+```
+DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI/
+├── deepfake_detection_model.h5          # Pre-trained deepfake detection model
+├── requirements.txt                     # Python dependencies
+├── launch_website.py                    # Easy application launcher
+├── README.md                           # This documentation
+├── task_history.db                     # SQLite database for task history
+└── Code/
+    ├── app_website.py                  # Main website-style application
+    ├── enhanced_video_module.py        # Advanced video analysis engine
+    ├── content_analyzer.py             # Comprehensive file content analysis
+    ├── task_history_manager.py         # Task tracking and analytics
+    ├── batch_processor.py              # Parallel file processing
+    ├── model_trainer.py                # Advanced model training interface
+    ├── enhanced_ui_components.py       # Premium UI components library
+    ├── dashboard_header.py             # Dashboard header with navigation
+    ├── config_manager.py               # Application configuration
+    ├── multifile_detection_module.py   # Multi-file detection engine
+    └── video_detection_module.py       # Original video detection module
+```
+
+### Alternative: Run Original App
+
+For the original sidebar-based interface, run:
+
+```
+streamlit run Code/app_premium.py
+```
 
 ## Result Snapshots
+
 The project's introduction and goal are displayed in the front-end user interface (UI) of the model, which is displayed when we run the command streamlit run app.py.<br>
 ![Screenshot 2024-07-23 210810](https://github.com/user-attachments/assets/a6accefd-e20d-45db-b639-2c6e755ebc23)<br>
 Then, in order for the user to determine if an image is real or fake, they must select one from the testing images that have been trained into the model.<br>
@@ -40,7 +84,9 @@ The model will identify the selected image for detection as fake and present the
 ![Screenshot 2024-06-09 173818](https://github.com/user-attachments/assets/2336d6df-7ebc-4cda-939b-f9da21e5a22b)
 
 ## Tools
+
 Pycharm
 
 ## Thanks for Watching
+
 Thank you for checking out my Deepfake Detection and Prevention project! If you found this project useful or interesting, please consider giving it a star🌟 on GitHub. Your support is greatly appreciated!
