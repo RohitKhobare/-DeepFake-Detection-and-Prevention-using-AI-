@@ -1,4 +1,4 @@
-# DeepFake-Detection-and-Prevention-A-Comprehensive-approach-using-AI
+# DeepFake Detection and Prevention using AI
 
 ## Introduction
 
@@ -72,21 +72,7 @@ For the original sidebar-based interface, run:
 streamlit run Code/app_premium.py
 ```
 
-## Result Snapshots
-
-The project's introduction and goal are displayed in the front-end user interface (UI) of the model, which is displayed when we run the command streamlit run app.py.<br>
-![Screenshot 2024-07-23 210810](https://github.com/user-attachments/assets/a6accefd-e20d-45db-b639-2c6e755ebc23)<br>
-Then, in order for the user to determine if an image is real or fake, they must select one from the testing images that have been trained into the model.<br>
-![Screenshot 2024-07-23 210853](https://github.com/user-attachments/assets/80529dfd-b428-434e-bd71-246aac435a7f)<br>
-The model will identify the selected image for detection as real if it is, and it will provide the outcome as real along with an explanation of why it is real.<br>
-![Screenshot 2024-06-09 173651](https://github.com/user-attachments/assets/c5e084a8-c33f-4d6d-84ee-27016760d58e)<br>
-The model will identify the selected image for detection as fake and present the output as fake along with an explanation of why it is fake.<br>
-![Screenshot 2024-06-09 173818](https://github.com/user-attachments/assets/2336d6df-7ebc-4cda-939b-f9da21e5a22b)
-
 ## Tools
 
 Pycharm
 
-## Thanks for Watching
-
-Thank you for checking out my Deepfake Detection and Prevention project! If you found this project useful or interesting, please consider giving it a star🌟 on GitHub. Your support is greatly appreciated!
